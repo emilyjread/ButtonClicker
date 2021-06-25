@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    padding: 0px 100px;
+}
+.header{
+    background-color: green;
+    color: white;
+    height:50px;
+    display: flex;
+    padding: 10px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.login{
+    width: 60px;
+    padding: 5px;
+    background-color:  blue;
+    color: white;
+    box-shadow: 5px 5px black;
+    text-align: center;
+    height: 30px;
+}
+.search{
+    height: 30px;
+    width: 200px;
+} 
+.main{
+    height: 900;
+    display:flex;
+}
+.left{
+    flex:3
+}
+.right{
+    flex:1;
+    border: 2px solid black;
+    margin: 20px;
+    text-align: center;
+    height: 120px;
+}
+.right p{
+    font-size: 20px;
+    margin: 15px;
+}
+.definition-container{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px 0px;
+    display: flex;
+    flex: 1;
+    text-align: center;
+}
+.word{
+    font-size: 32px;
+}
+.pos{
+    font-size: 20px;
+}
+.plural{
+    font-size:18px;
+}
+.likes{
+    width: 60px;
+    padding: 5px;
+    background-color: goldenrod;
+    box-shadow: 5px 5px;
+    text-align: center;
+    align-self: center;
+}
+.semantics{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex: 1;
+}
+.definition{
+    flex: 3;
+}
+.add-def{
+    width: 100px;
+    padding: 5px;
+    background-color: mediumspringgreen;
+    box-shadow: 5px 5px;
+    text-align: center;
+}
